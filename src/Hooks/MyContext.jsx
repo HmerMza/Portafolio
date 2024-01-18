@@ -8,7 +8,7 @@ export const ContextProvider = ({ children }) => {
   const [activo, setActivo] = useState(ruta.pathname.slice(1) || "home");
   const certificados = [
     {
-      img: "/src/img/Finalizacion.jpg",
+      img: "./src/img/Finalizacion.jpg",
       nombre: "Programa ONE-G5",
       escuela: "Alura",
       logoE: "/src/Icons/alura-logo.1686744883.svg",
